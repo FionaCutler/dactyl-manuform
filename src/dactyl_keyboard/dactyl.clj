@@ -335,7 +335,7 @@
        (rotate (deg2rad 0) [0 1 0])
        (rotate (deg2rad 0) [0 0 1])
        (translate thumborigin)
-       (translate [-17 -50 -25])
+       (translate [-19 -50 -30])
        ))
 (defn thumb-bl-place [shape]
   (->> shape
@@ -343,7 +343,7 @@
        (rotate (deg2rad  0) [0 1 0])
        (rotate (deg2rad  0) [0 0 1])
        (translate thumborigin)
-       (translate [-32 -50 -25])
+       (translate [-39 -50 -30])
        ))
 
 (defn thumb-1x-layout [shape]
